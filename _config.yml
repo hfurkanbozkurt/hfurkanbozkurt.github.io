@@ -1,0 +1,59 @@
+# Site
+repository: hfurkanbozkurt/hfurkanbozkurt.github.io
+favicon: images/favicon.ico
+
+# Personal info
+name: H. Furkan Bozkurt
+title: Graduate Research Assistant
+email: hfurkanbozkurt@gmail.com
+
+# Social links
+# twitter_username: facespics
+github_username:  hfurkanbozkurt
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+instagram_username: h_furkanbozkurt
+linkedin_username: hfurkanbozkurt
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name is Furkan and I am passionate about artificial intelligence, deep learning, reinforcement learning, robotics and computer vision in terms of not only theory but also applications which can change our everyday life. I am trying to build a solid background in all those fields in order to get closer to the human brain and its main functions.
+
+  Click [here](CV.pdf) for my CV in pdf form.
+
+# Projects Section
+# projects_title: Projects #(Use this to override about projects section title)
+
+# Experience Section
+# experience_title: Experience #(Use this to override about experience section title)
+
+# Education Section
+# education_title: Education #(Use this to override about education section title)
+
+# More Section
+# more_title: A Little More About Me #(Use this to override about more section title)
+more_content: | # this will include new lines to allow paragraphs
+  Alongside my interests in artificial intelligence some of my other interests and hobbies are:
+   - Cycling
+   - Basketball
+   - Chess
+
+# Footer
+footer_show_references: false
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag

@@ -1,0 +1,19 @@
+- name: Deep Scheduler
+  description: | # this will include new lines to allow paragraphs
+    Researched RL algorithms to predict which one of the given finite number of hyperparameter configurations of a black box machine learning algorithm will perform better by only observing their learning curves.
+
+- name: DDPG+HER
+  description: | # this will include new lines to allow paragraphs
+    Implemented DDPG using HER from scratch and benchmarked against original version.
+
+- name: Classification on 2016 US Elections
+  description: | # this will include new lines to allow paragraphs
+    Predicted 2016 US Election results for each city in US using many classification techniques written in MATLAB.
+
+- name: Regression on Daily Bike Rental Demand
+  description: | # this will include new lines to allow paragraphs
+    Predicted hourly bike usage in the city of New York using many refression techniques written in MATLAB.
+
+- name: Visual Object Recognition
+  description: | # this will include new lines to allow paragraphs
+    Implemented multi-voxel pattern analysis methods to decode the category of visual stimuli viewed by a human subject based on their recorded brain activity.
