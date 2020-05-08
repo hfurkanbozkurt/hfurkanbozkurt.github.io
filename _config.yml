@@ -4,52 +4,32 @@ favicon: images/favicon.ico
 
 # Personal info
 name: H. Furkan Bozkurt
-title: Graduate Research Assistant
+title: Machine Learning Engineer
 email: hfurkanbozkurt@gmail.com
 
+# Dark Mode (true/false/never)
+darkmode: never
+
 # Social links
-# twitter_username: facespics
 github_username:  hfurkanbozkurt
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-instagram_username: h_furkanbozkurt
 linkedin_username: hfurkanbozkurt
-# pinterest_username: jekyll
-# youtube_username: globalmtb
-# googleplus_username: +jekyll
+scholar_username: hyTX6wsAAAAJ&
 
 # About Section
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Furkan and I am passionate about artificial intelligence, deep learning, reinforcement learning, robotics and computer vision in terms of not only theory but also applications which can change our everyday life. I am trying to build a solid background in all those fields in order to get closer to the human brain and its main functions.
+  Hi, I am Furkan. I am a Machine Learning Engineer working for SageMaker, Amazon Web Services. I am passionate about artificial intelligence, reinforcement learning, hyperperameter optimization and automated machine learning. I highly value open source software and democratizing artificial intelligence for everyone.
 
-  Click [here](CV.pdf) for my CV in pdf form.
+  Besides my professional activities, I enjoy playing and watching basketball, travelling whenever I can and try local street food, cook for my loved ones, and enjoy riding my bike on a nice Berlin sunset.
 
-# Projects Section
-# projects_title: Projects #(Use this to override about projects section title)
-
-# Experience Section
-# experience_title: Experience #(Use this to override about experience section title)
-
-# Education Section
-# education_title: Education #(Use this to override about education section title)
-
-# More Section
-# more_title: A Little More About Me #(Use this to override about more section title)
-more_content: | # this will include new lines to allow paragraphs
-  Alongside my interests in artificial intelligence some of my other interests and hobbies are:
-   - Cycling
-   - Basketball
-   - Chess
+  Click [here](resources/CV.pdf){:target="_blank"} for my CV in pdf form and feel free to send me an [email](mailto:hfurkanbozkurt@gmail.com).
 
 # Footer
 footer_show_references: false
 
 # Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
 sass:
   sass_dir: _sass
@@ -57,3 +37,16 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
